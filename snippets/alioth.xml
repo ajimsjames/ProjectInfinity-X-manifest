@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Define GitHub as remote -->
+  <remote name="github"
+          fetch="https://github.com/" />
+
+  <!-- Alioth Device additions -->
+  <project name="ajimsjames/vendor_xiaomi_alioth" path="vendor/xiaomi/alioth" remote="github" revision="main" />
+  <project name="ajimsjames/device_xiaomi_camera" path="device/xiaomi/camera" remote="github" revision="main" />
+  <project name="ajimsjames/kernel_xiaomi_sm8250" path="kernel/xiaomi/sm8250" remote="github" revision="main" />
+  <project name="ajimsjames/vendor_xiaomi_sm8250-common" path="vendor/xiaomi/sm8250-common" remote="github" revision="main" />
+  <project name="ajimsjames/device_xiaomi_sm8250-common" path="device/xiaomi/sm8250-common" remote="github" revision="main" />
+  <project name="ajimsjames/packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="main" />
+  <project name="ajimsjames/device_xiaomi_alioth" path="device/xiaomi/alioth" remote="github" revision="main" />
+  <project name="ajimsjames/hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="main" />
+
+</manifest>
+
